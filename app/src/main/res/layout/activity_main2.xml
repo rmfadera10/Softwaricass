@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/temp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the value of Temperature"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        ></EditText>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celsius"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fahrenhite"
+        ></Button>
+
+    <TextView
+        android:id="@+id/temp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calculate"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#ff0000"></TextView>
+
+</LinearLayout>
